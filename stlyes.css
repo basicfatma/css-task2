@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(./sewing\ background.jpg);
+    background-size: cover;
+}
+
+.nav{
+    width: 100%;
+    overflow: auto;
+    background-color: rgb(167, 88, 114);
+}
+
+.nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+}
+
+.nav ul li {
+ float: left;
+ width: 120px;
+ padding: 15px;
+ color: black;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: 15px;
+ text-align: center;
+}
+
+.li:hover{
+background: white;
+}
+
+
+#search{
+    width: 200px;
+    padding: 20px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 280px;
+    margin-bottom: 100px;
+    transition: transform .2s;
+}
+
+.container:hover{
+    -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+}
+
+.box1{
+    background-color: white; 
+    width: 200px; 
+    border-radius: 10px;
+    border: solid pink;
+    
+}
+
+.image1{
+    width: 200px;
+}
+
+.box2{
+    background-color: white; 
+    width: 200px; 
+    border-radius: 10px;
+    border: solid pink;
+}
+
+
+.image2{
+    width: 200px;
+}
+
+.box3{
+    background-color: white; 
+    width: 200px; 
+    border-radius: 10px;
+    border: solid pink;
+}
+
+
+.image3{
+    width: 200px;
+}
+ 
+
+.box4{
+    background-color: white; 
+    width: 200px; 
+    border-radius: 10px;
+    border: solid pink;
+}
+
+
+.image4{
+    width: 200px;
+}
+
+.div{
+    background-color: rgba(148, 145, 146, 0.37);
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(167, 88, 114);
+    color: white;
+    padding: 100px;
+}
+
+h5{
+    margin: 30px;
+}
